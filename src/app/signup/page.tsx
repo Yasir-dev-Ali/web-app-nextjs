@@ -29,9 +29,6 @@ export default function SignupPage() {
         <input type="password" placeholder="Password" className="w-full p-2 my-2 border-2" onChange={(e)=>setUser({...user,password:e.target.value})}/>
         <button className="bg-blue-500 text-white p-2 w-full my-2" onClick={()=>console.log(user)}>Signup</button>
         <Link className="text-center mt-5" href="/login">You have already Account ? Login </Link>
-       
-
-        
         </div>
         
         </div>
